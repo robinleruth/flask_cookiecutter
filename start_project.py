@@ -105,7 +105,7 @@ with open(config_file_name, 'w') as f:
     f.write("    SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'\n")
     f.write("    # SQLALCHEMY_DATABASE_URI = os.environ.get('SQLALCHEMY_DATABASE_URI') or 'sqlite:///' + os.path.join(basedir, 'app.db')\n")
     f.write("    # SQLALCHEMY_TRACK_MODIFICATIONS = False\n")
-    f.write("    STATIC_FOLDER = os.path.join(basedir, 'app', 'static\n")
+    f.write("    STATIC_FOLDER = os.path.join(basedir, 'app', 'static')\n")
     f.write("    # MAIL_SERVER = ""\n")
     f.write("    # MAIL_PORT = ""\n")
     f.write("    # MAIL_USE_TLS = ""\n")
